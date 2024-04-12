@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Hire Me!</title>
+	<link rel="stylesheet" href="contact.css">
+</head>
+<body>
+	<div class="container">
+		<div class="form-container">
+		  <div class="left-container">
+			<div class="left-inner-container">
+			<h2>Hire Me!</h2>
+			  <p>Feel free to send me a message in the contact form.</p>
+		  </div>
+			</div>
+		  <div class="right-container">
+			<div class="right-inner-container">
+			  <form action="https://api.web3forms.com/submit" method="POST">
+				  <h2 class="lg-view">Contact</h2>
+				 <p>* Required</p>
+				 <input type="hidden" name="access_key" value="91be5c46-3ade-46a2-8613-88cbc2f571cd">
+				
+					<input type="text" name="name" required placeholder="Full Name" >
+					<input type="email" name="email" required placeholder="Email" >
+					<input type="phone" name="Phone" required placeholder="Phone" >
+					<input type="text" name="Company" required placeholder="Company" rows="4"/>
+
+					<textarea name="message" required placeholder="Message" ></textarea>
+					<input type="hidden" name="redirect" value="http://127.0.0.1:5500/portfolio/index2.html">
+					<input type="hidden" name="subject" value="Hello,Ankit from portfolio website form has been submitted on your website!">
+					<button type="submit">Submit Form</button>
+				
+				</form>
+			  </form>
+			</div>
+		  </div>
+		</div>
+	  </div>
+</body>
+</html>
